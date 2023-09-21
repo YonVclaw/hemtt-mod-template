@@ -7,9 +7,8 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {  };
-        authors[] = {"Your Name", "Other Author"}; // sub array of authors, considered for the specific addon
-        author = "TAG Team"; // primary author name, either yours or your team's, considered for the whole mod
+        requiredAddons[] = {"TAG_main"};
+        authors[] = {""};
         VERSION_CONFIG;
     };
 };
@@ -22,13 +21,13 @@ class CfgMods {
         
         author = "TAG Team";                    // probably shown somewhere in the mods menu, but probably ignored by CBA/HEMTT
 
-        picture         = "title_co.paa";       // Picture displayed from the expansions menu. Optimal size is 2048x1024
+        picture         = "gobp2_256.paa";       // Picture displayed from the expansions menu. Optimal size is 2048x1024
         hideName        = "false";              // Hide the extension name in main menu and extension menu
         hidePicture     = "false";              // Hide the extension picture in the extension menu
 
-        action          = "https://www.ehre.to"; // Website URL, that can accessed from the expansions menu 
-        actionName      = "today?";              // label of button/tooltip in extension menu
-        description     = "It's unclear where this will show"; // Probably in context with action
+        action          = "https://ghostsofbattle.com"; // Website URL, that can accessed from the expansions menu 
+        actionName      = "Web Site";              // label of button/tooltip in extension menu
+        description     = "Ghosts of Battle Custom Mod - Here you will return, you will not die in war"; // Probably in context with action
 
         // Color used for DLC stripes and backgrounds (RGBA)
         dlcColor[] =
